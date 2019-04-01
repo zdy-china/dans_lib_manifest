@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin_dans_git" fetch="ssh://git@github.com"/>
+  <remote  name="origin_dans_gcc" fetch="ssh://git@github.com"/>
+  <remote  name="origin_dans_clang" fetch="ssh://git@github.com"/>
+
+  <default revision="master" group="dans_lib_group" sync-j="4"/>
+
+  <project name="zdy-china/dans_git"
+           remote="origin_dans_git"
+           path="dans_git" />
+
+  <project name="zdy-china/dans_gcc"
+           remote="origin_dans_gcc"
+           path="dans_gcc" />
+
+  <project name="zdy-china/dans_clang"
+           remote="origin_dans_clang"
+           path="dans_clang" />
+
+</manifest>
