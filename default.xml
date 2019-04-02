@@ -4,6 +4,7 @@
   <remote  name="origin_dans_git" fetch="ssh://git@github.com"/>
   <remote  name="origin_dans_gcc" fetch="ssh://git@github.com"/>
   <remote  name="origin_dans_clang" fetch="ssh://git@github.com"/>
+  <remote  name="origin_dans_linux_kernel" fetch="ssh://git@github.com"/>
 
   <default revision="master" group="dans_lib_group" sync-j="4"/>
 
@@ -18,5 +19,9 @@
   <project name="zdy-china/dans_clang"
            remote="origin_dans_clang"
            path="dans_clang" />
+
+  <project name="zdy-china/dans_linux_kernel"
+           remote="origin_dans_linux_kernel"
+           path="dans_linux/dans_linux_kernel" />
 
 </manifest>
